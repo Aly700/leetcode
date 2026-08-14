@@ -10,6 +10,7 @@ import importlib.util
 import os
 from pathlib import Path
 import shutil
+import typing
 import subprocess
 import sys
 import tempfile
@@ -55,6 +56,9 @@ def load_module(path: Path, name: str) -> ModuleType:
     if spec is None or spec.loader is None:
         raise ImportError(f"cannot create an import spec for {path}")
     module = importlib.util.module_from_spec(spec)
+    # LeetCode solution files use typing names without importing them.
+    for typing_name in ("List", "Dict", "Optional", "Tuple", "Set", "Deque"):
+        setattr(module, typing_name, getattr(typing, typing_name))
     sys.modules[name] = module
     spec.loader.exec_module(module)
     return module

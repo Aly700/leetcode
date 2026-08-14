@@ -1,10 +1,47 @@
 {
-  "generated": "2026-08-14T00:35:20Z",
+  "generated": "2026-08-14T01:24:25Z",
   "counts": {
     "easy": 0,
-    "medium": 0,
+    "medium": 2,
     "hard": 0,
-    "total": 0
+    "total": 2
   },
-  "problems": []
+  "problems": [
+    {
+      "id": 238,
+      "slug": "product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0238-product-of-array-except-self",
+      "url": "https://leetcode.com/problems/product-of-array-except-self/"
+    },
+    {
+      "id": 347,
+      "slug": "top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting",
+        "Quickselect"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0347-top-k-frequent-elements",
+      "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+    }
+  ]
 }

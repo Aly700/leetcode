@@ -4,10 +4,12 @@ My LeetCode solve log. LeetHub v2 adds each solution in its own problem
 directory. The index and `problems.json` are generated from those directories.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 0 total | 0 easy | 0 medium | 0 hard
+**Solved:** 2 total | 0 easy | 2 medium | 0 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
+| 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python |
+| 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python |
 <!-- INDEX:END -->
 
 ## Adding solutions

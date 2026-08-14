@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Run tooling unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run solution tests
+        run: python tools/run_tests.py
+      - name: Check generated index
+        run: python tools/generate_index.py --check
+
+  regenerate-index:
+    needs: verify
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Regenerate index and manifest
+        run: python tools/generate_index.py
+      - name: Commit generated files when changed
+        run: |
+          git add README.md problems.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: regenerate problem index"
+          git push origin HEAD:main

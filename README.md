@@ -1,7 +1,8 @@
 # leetcode
 
-My LeetCode solve log. LeetHub v2 adds each solution in its own problem
-directory. The index and `problems.json` are generated from those directories.
+My LeetCode solve log. A local script pulls my accepted submissions into
+problem directories. The index and `problems.json` are generated from those
+directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
 **Solved:** 2 total | 0 easy | 2 medium | 0 hard

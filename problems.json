@@ -1,12 +1,28 @@
 {
-  "generated": "2026-08-14T01:24:25Z",
+  "generated": "2026-08-14T18:46:00Z",
   "counts": {
     "easy": 0,
-    "medium": 2,
+    "medium": 3,
     "hard": 0,
-    "total": 2
+    "total": 3
   },
   "problems": [
+    {
+      "id": 128,
+      "slug": "longest-consecutive-sequence",
+      "title": "Longest Consecutive Sequence",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Union-Find"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0128-longest-consecutive-sequence",
+      "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
     {
       "id": 238,
       "slug": "product-of-array-except-self",

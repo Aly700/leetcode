@@ -1,12 +1,28 @@
 {
-  "generated": "2026-08-14T18:46:00Z",
+  "generated": "2026-08-17T00:36:12Z",
   "counts": {
     "easy": 0,
-    "medium": 3,
+    "medium": 5,
     "hard": 0,
-    "total": 3
+    "total": 5
   },
   "problems": [
+    {
+      "id": 15,
+      "slug": "3sum",
+      "title": "3Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0015-3sum",
+      "url": "https://leetcode.com/problems/3sum/"
+    },
     {
       "id": 128,
       "slug": "longest-consecutive-sequence",
@@ -22,6 +38,22 @@
       ],
       "path": "0128-longest-consecutive-sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    {
+      "id": 167,
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "title": "Two Sum II - Input Array Is Sorted",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0167-two-sum-ii-input-array-is-sorted",
+      "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
     },
     {
       "id": 238,

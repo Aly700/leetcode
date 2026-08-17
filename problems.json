@@ -1,12 +1,28 @@
 {
-  "generated": "2026-08-17T00:36:12Z",
+  "generated": "2026-08-17T23:25:04Z",
   "counts": {
-    "easy": 0,
-    "medium": 5,
+    "easy": 1,
+    "medium": 6,
     "hard": 0,
-    "total": 5
+    "total": 7
   },
   "problems": [
+    {
+      "id": 3,
+      "slug": "longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0003-longest-substring-without-repeating-characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
     {
       "id": 15,
       "slug": "3sum",
@@ -22,6 +38,21 @@
       ],
       "path": "0015-3sum",
       "url": "https://leetcode.com/problems/3sum/"
+    },
+    {
+      "id": 121,
+      "slug": "best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0121-best-time-to-buy-and-sell-stock",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
     },
     {
       "id": 128,

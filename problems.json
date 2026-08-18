@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T23:25:04Z",
+  "generated": "2026-08-18T19:00:56Z",
   "counts": {
-    "easy": 1,
-    "medium": 6,
+    "easy": 2,
+    "medium": 7,
     "hard": 0,
-    "total": 7
+    "total": 9
   },
   "problems": [
     {
@@ -40,6 +40,22 @@
       "url": "https://leetcode.com/problems/3sum/"
     },
     {
+      "id": 20,
+      "slug": "valid-parentheses",
+      "title": "Valid Parentheses",
+      "difficulty": "Easy",
+      "topics": [
+        "String",
+        "Stack",
+        "Bracket Sequences"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0020-valid-parentheses",
+      "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
       "id": 121,
       "slug": "best-time-to-buy-and-sell-stock",
       "title": "Best Time to Buy and Sell Stock",
@@ -69,6 +85,21 @@
       ],
       "path": "0128-longest-consecutive-sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
+    },
+    {
+      "id": 155,
+      "slug": "min-stack",
+      "title": "Min Stack",
+      "difficulty": "Medium",
+      "topics": [
+        "Stack",
+        "Design"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0155-min-stack",
+      "url": "https://leetcode.com/problems/min-stack/"
     },
     {
       "id": 167,

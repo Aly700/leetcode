@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 9 total | 2 easy | 7 medium | 0 hard
+**Solved:** 11 total | 2 easy | 9 medium | 0 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
@@ -18,6 +18,8 @@ directories, and every solution runs its example cases in CI.
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python |
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python |
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python |
+| 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python |
+| 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python |
 <!-- INDEX:END -->
 
 ## Adding solutions

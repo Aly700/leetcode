@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-18T19:00:56Z",
+  "generated": "2026-08-19T20:33:17Z",
   "counts": {
     "easy": 2,
-    "medium": 7,
+    "medium": 9,
     "hard": 0,
-    "total": 9
+    "total": 11
   },
   "problems": [
     {
@@ -152,6 +152,39 @@
       ],
       "path": "0347-top-k-frequent-elements",
       "url": "https://leetcode.com/problems/top-k-frequent-elements/"
+    },
+    {
+      "id": 739,
+      "slug": "daily-temperatures",
+      "title": "Daily Temperatures",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0739-daily-temperatures",
+      "url": "https://leetcode.com/problems/daily-temperatures/"
+    },
+    {
+      "id": 853,
+      "slug": "car-fleet",
+      "title": "Car Fleet",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Stack",
+        "Sorting",
+        "Monotonic Stack"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0853-car-fleet",
+      "url": "https://leetcode.com/problems/car-fleet/"
     }
   ]
 }

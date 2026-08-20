@@ -1,0 +1,7 @@
+title: "Largest Rectangle in Histogram"
+difficulty: Hard
+topics:
+  - "Array"
+  - "Stack"
+  - "Monotonic Stack"
+  - "Range Minimum/Maximum Query"

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-26T01:14:51Z",
+  "generated": "2026-08-26T16:03:59Z",
   "counts": {
-    "easy": 2,
+    "easy": 3,
     "medium": 11,
     "hard": 1,
-    "total": 14
+    "total": 15
   },
   "problems": [
     {
@@ -102,6 +102,21 @@
       ],
       "path": "0121-best-time-to-buy-and-sell-stock",
       "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    {
+      "id": 125,
+      "slug": "valid-palindrome",
+      "title": "Valid Palindrome",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0125-valid-palindrome",
+      "url": "https://leetcode.com/problems/valid-palindrome/"
     },
     {
       "id": 128,

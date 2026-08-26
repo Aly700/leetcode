@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 14 total | 2 easy | 11 medium | 1 hard
+**Solved:** 15 total | 3 easy | 11 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ directories, and every solution runs its example cases in CI.
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python |
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python |
+| 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python |
 | 155 | [Min Stack](0155-min-stack/0155-min-stack.py) | Medium | Stack, Design | Python |
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python |

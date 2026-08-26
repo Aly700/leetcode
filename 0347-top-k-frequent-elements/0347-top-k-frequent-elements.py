@@ -2,14 +2,17 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
         frequency = {}
-        
+
         for number in nums:
             frequency[number] = frequency.get(number,0) + 1
-        
-        buckets = [[] for _ in range(len(nums)+1)]
 
-        for number, count in frequency.items():
-            buckets[count].append(number)
+        buckets = []
+
+        for _ in range(len(nums)+1):
+            buckets.append([])
+
+        for number,times in frequency.items():
+            buckets[times].append(number)
 
         result = []
 
@@ -17,7 +20,9 @@ class Solution:
             for number in buckets[i]:
                 result.append(number)
 
-                if len(result) == k:
-                    return result
+            if len(result) == k:
+                return result
 
         return result
+
+        

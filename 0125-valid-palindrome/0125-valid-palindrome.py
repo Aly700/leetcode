@@ -1,3 +1,7 @@
+# O(1) space. My first pass (kept in the first-pass file) built a cleaned copy
+# of the whole string first, which is O(n) extra space. This version two-points
+# straight over the original and skips non-alphanumerics in place, so no copy.
+# Same O(n) time, but nothing allocated.
 class Solution:
     def isPalindrome(self, s: str) -> bool:
 

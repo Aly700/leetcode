@@ -1,12 +1,27 @@
 {
-  "generated": "2026-08-26T16:03:59Z",
+  "generated": "2026-08-28T02:52:46Z",
   "counts": {
-    "easy": 3,
-    "medium": 11,
+    "easy": 5,
+    "medium": 13,
     "hard": 1,
-    "total": 15
+    "total": 19
   },
   "problems": [
+    {
+      "id": 1,
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0001-two-sum",
+      "url": "https://leetcode.com/problems/two-sum/"
+    },
     {
       "id": 3,
       "slug": "longest-substring-without-repeating-characters",
@@ -54,6 +69,23 @@
       ],
       "path": "0020-valid-parentheses",
       "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 49,
+      "slug": "group-anagrams",
+      "title": "Group Anagrams",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0049-group-anagrams",
+      "url": "https://leetcode.com/problems/group-anagrams/"
     },
     {
       "id": 74,
@@ -216,6 +248,37 @@
       ],
       "path": "0424-longest-repeating-character-replacement",
       "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    },
+    {
+      "id": 560,
+      "slug": "subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0560-subarray-sum-equals-k",
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+    },
+    {
+      "id": 643,
+      "slug": "maximum-average-subarray-i",
+      "title": "Maximum Average Subarray I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Sliding Window"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0643-maximum-average-subarray-i",
+      "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
     },
     {
       "id": 739,

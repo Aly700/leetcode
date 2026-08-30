@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-28T02:52:46Z",
+  "generated": "2026-08-30T07:34:03Z",
   "counts": {
-    "easy": 5,
-    "medium": 13,
+    "easy": 6,
+    "medium": 14,
     "hard": 1,
-    "total": 19
+    "total": 21
   },
   "problems": [
     {
@@ -69,6 +69,22 @@
       ],
       "path": "0020-valid-parentheses",
       "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 48,
+      "slug": "rotate-image",
+      "title": "Rotate Image",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0048-rotate-image",
+      "url": "https://leetcode.com/problems/rotate-image/"
     },
     {
       "id": 49,
@@ -264,6 +280,22 @@
       ],
       "path": "0560-subarray-sum-equals-k",
       "url": "https://leetcode.com/problems/subarray-sum-equals-k/"
+    },
+    {
+      "id": 566,
+      "slug": "reshape-the-matrix",
+      "title": "Reshape the Matrix",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0566-reshape-the-matrix",
+      "url": "https://leetcode.com/problems/reshape-the-matrix/"
     },
     {
       "id": 643,

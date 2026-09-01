@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-01T04:23:54Z",
+  "generated": "2026-09-01T23:39:27Z",
   "counts": {
     "easy": 7,
-    "medium": 15,
+    "medium": 16,
     "hard": 1,
-    "total": 23
+    "total": 24
   },
   "problems": [
     {
@@ -102,6 +102,22 @@
       ],
       "path": "0049-group-anagrams",
       "url": "https://leetcode.com/problems/group-anagrams/"
+    },
+    {
+      "id": 73,
+      "slug": "set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0073-set-matrix-zeroes",
+      "url": "https://leetcode.com/problems/set-matrix-zeroes/"
     },
     {
       "id": 74,

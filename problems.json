@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-30T07:34:03Z",
+  "generated": "2026-09-01T02:33:38Z",
   "counts": {
     "easy": 6,
-    "medium": 14,
+    "medium": 15,
     "hard": 1,
-    "total": 21
+    "total": 22
   },
   "problems": [
     {
@@ -212,6 +212,24 @@
       ],
       "path": "0167-two-sum-ii-input-array-is-sorted",
       "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
+    },
+    {
+      "id": 200,
+      "slug": "number-of-islands",
+      "title": "Number of Islands",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0200-number-of-islands",
+      "url": "https://leetcode.com/problems/number-of-islands/"
     },
     {
       "id": 238,

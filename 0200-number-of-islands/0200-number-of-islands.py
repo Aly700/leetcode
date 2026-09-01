@@ -1,5 +1,7 @@
-# Recursive DFS. Every "1" not seen yet is a new island; explore sinks the
-# whole island by flipping its cells to "0" so nothing is counted twice.
+# Revision. Same flood fill, now iterative (recursive version kept in the
+# -recursive file). Leaning on the Python call stack gives me the "ick" —
+# an explicit stack does the same walk by hand, and no grid can blow the
+# recursion limit.
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
 
@@ -9,21 +11,26 @@ class Solution:
 
         def explore(row,col):
 
-            if row < 0 or row >= rows or col < 0 or col >= cols:
+            stack = [(row,col)]
 
-                return
+            while stack:
+
+                r,c = stack.pop()
+
+                if r < 0 or r >= rows or c < 0 or c >= cols:
+
+                    continue
                 
-            elif grid[row][col] == "0":
-                
-                return
+                if grid[r][c] == "0":
 
-            else:
+                    continue
 
-                grid[row][col] = "0"
-                explore(row-1,col)
-                explore(row+1,col)
-                explore(row,col+1)
-                explore(row,col-1)
+
+                grid[r][c] = "0"
+                stack.append((r+1,c))
+                stack.append((r-1,c))
+                stack.append((r,c+1))
+                stack.append((r,c-1))
 
 
         for row in range(rows):

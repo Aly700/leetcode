@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-01T02:33:38Z",
+  "generated": "2026-09-01T04:23:54Z",
   "counts": {
-    "easy": 6,
+    "easy": 7,
     "medium": 15,
     "hard": 1,
-    "total": 22
+    "total": 23
   },
   "problems": [
     {
@@ -282,6 +282,23 @@
       ],
       "path": "0424-longest-repeating-character-replacement",
       "url": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    },
+    {
+      "id": 496,
+      "slug": "next-greater-element-i",
+      "title": "Next Greater Element I",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0496-next-greater-element-i",
+      "url": "https://leetcode.com/problems/next-greater-element-i/"
     },
     {
       "id": 560,

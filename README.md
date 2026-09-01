@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 22 total | 6 easy | 15 medium | 1 hard
+**Solved:** 23 total | 7 easy | 15 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
@@ -26,6 +26,7 @@ directories, and every solution runs its example cases in CI.
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python |
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python |
 | 424 | [Longest Repeating Character Replacement](0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.py) | Medium | Hash Table, String, Sliding Window | Python |
+| 496 | [Next Greater Element I](0496-next-greater-element-i/0496-next-greater-element-i.py) | Easy | Array, Hash Table, Stack, Monotonic Stack | Python |
 | 560 | [Subarray Sum Equals K](0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Medium | Array, Hash Table, Prefix Sum | Python |
 | 566 | [Reshape the Matrix](0566-reshape-the-matrix/0566-reshape-the-matrix.py) | Easy | Array, Matrix, Simulation | Python |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python |

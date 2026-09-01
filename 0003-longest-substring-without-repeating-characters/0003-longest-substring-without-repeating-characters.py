@@ -1,7 +1,5 @@
-# Revision. My first pass (kept in the first-pass file) advanced `right` by hand
-# even though the for loop already controls it, so those writes were dead code and
-# the branch was duplicated. Same O(n) sliding window either way, this version is
-# just simpler and does less redundant work per step.
+# Revision. Same sliding window as the second pass, but the longest update is
+# one line: max() replaces the if block, and the length temp goes away.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
 
@@ -14,13 +12,8 @@ class Solution:
             while s[right] in char_set:
                 char_set.remove(s[left])
                 left += 1
-            
-            char_set.add(s[right])
-            length = right - left + 1
 
-            if length > longest:
-                longest = length
+            char_set.add(s[right])
+            longest = max(longest, right - left + 1)
 
         return longest
-        
-        

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-01T23:39:27Z",
+  "generated": "2026-09-03T19:30:13Z",
   "counts": {
     "easy": 7,
-    "medium": 16,
+    "medium": 17,
     "hard": 1,
-    "total": 24
+    "total": 25
   },
   "problems": [
     {
@@ -395,6 +395,22 @@
       ],
       "path": "0853-car-fleet",
       "url": "https://leetcode.com/problems/car-fleet/"
+    },
+    {
+      "id": 994,
+      "slug": "rotting-oranges",
+      "title": "Rotting Oranges",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Breadth-First Search",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0994-rotting-oranges",
+      "url": "https://leetcode.com/problems/rotting-oranges/"
     }
   ]
 }

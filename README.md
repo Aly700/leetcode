@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 24 total | 7 easy | 16 medium | 1 hard
+**Solved:** 25 total | 7 easy | 17 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ directories, and every solution runs its example cases in CI.
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python |
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python |
 | 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python |
+| 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python |
 <!-- INDEX:END -->
 
 ## Adding solutions

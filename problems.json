@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-03T19:30:13Z",
+  "generated": "2026-09-15T23:43:56Z",
   "counts": {
     "easy": 7,
-    "medium": 17,
+    "medium": 19,
     "hard": 1,
-    "total": 25
+    "total": 27
   },
   "problems": [
     {
@@ -37,6 +37,22 @@
       ],
       "path": "0003-longest-substring-without-repeating-characters",
       "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
+    {
+      "id": 11,
+      "slug": "container-with-most-water",
+      "title": "Container With Most Water",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Greedy"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0011-container-with-most-water",
+      "url": "https://leetcode.com/problems/container-with-most-water/"
     },
     {
       "id": 15,
@@ -102,6 +118,22 @@
       ],
       "path": "0049-group-anagrams",
       "url": "https://leetcode.com/problems/group-anagrams/"
+    },
+    {
+      "id": 54,
+      "slug": "spiral-matrix",
+      "title": "Spiral Matrix",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0054-spiral-matrix",
+      "url": "https://leetcode.com/problems/spiral-matrix/"
     },
     {
       "id": 73,

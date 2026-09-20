@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-15T23:43:56Z",
+  "generated": "2026-09-20T08:14:37Z",
   "counts": {
     "easy": 7,
-    "medium": 19,
+    "medium": 21,
     "hard": 1,
-    "total": 27
+    "total": 29
   },
   "problems": [
     {
@@ -443,6 +443,40 @@
       ],
       "path": "0994-rotting-oranges",
       "url": "https://leetcode.com/problems/rotting-oranges/"
+    },
+    {
+      "id": 2043,
+      "slug": "simple-bank-system",
+      "title": "Simple Bank System",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Design",
+        "Simulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "2043-simple-bank-system",
+      "url": "https://leetcode.com/problems/simple-bank-system/"
+    },
+    {
+      "id": 3043,
+      "slug": "find-the-length-of-the-longest-common-prefix",
+      "title": "Find the Length of the Longest Common Prefix",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Trie"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "3043-find-the-length-of-the-longest-common-prefix",
+      "url": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/"
     }
   ]
 }

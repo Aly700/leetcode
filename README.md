@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 27 total | 7 easy | 19 medium | 1 hard
+**Solved:** 29 total | 7 easy | 21 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language |
 | ---: | --- | --- | --- | --- |
@@ -36,6 +36,8 @@ directories, and every solution runs its example cases in CI.
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python |
 | 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python |
 | 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python |
+| 2043 | [Simple Bank System](2043-simple-bank-system/2043-simple-bank-system.py) | Medium | Array, Hash Table, Design, Simulation | Python |
+| 3043 | [Find the Length of the Longest Common Prefix](3043-find-the-length-of-the-longest-common-prefix/3043-find-the-length-of-the-longest-common-prefix.py) | Medium | Array, Hash Table, String, Trie | Python |
 <!-- INDEX:END -->
 
 ## Adding solutions

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-20T08:14:37Z",
+  "generated": "2026-10-30T01:06:14Z",
   "counts": {
-    "easy": 7,
-    "medium": 21,
+    "easy": 10,
+    "medium": 23,
     "hard": 1,
-    "total": 29
+    "total": 34
   },
   "problems": [
     {
@@ -85,6 +85,21 @@
       ],
       "path": "0020-valid-parentheses",
       "url": "https://leetcode.com/problems/valid-parentheses/"
+    },
+    {
+      "id": 21,
+      "slug": "merge-two-sorted-lists",
+      "title": "Merge Two Sorted Lists",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0021-merge-two-sorted-lists",
+      "url": "https://leetcode.com/problems/merge-two-sorted-lists/"
     },
     {
       "id": 48,
@@ -231,6 +246,21 @@
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/"
     },
     {
+      "id": 153,
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "title": "Find Minimum in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0153-find-minimum-in-rotated-sorted-array",
+      "url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+    },
+    {
       "id": 155,
       "slug": "min-stack",
       "title": "Min Stack",
@@ -278,6 +308,21 @@
       ],
       "path": "0200-number-of-islands",
       "url": "https://leetcode.com/problems/number-of-islands/"
+    },
+    {
+      "id": 206,
+      "slug": "reverse-linked-list",
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0206-reverse-linked-list",
+      "url": "https://leetcode.com/problems/reverse-linked-list/"
     },
     {
       "id": 238,
@@ -396,6 +441,21 @@
       "url": "https://leetcode.com/problems/maximum-average-subarray-i/"
     },
     {
+      "id": 704,
+      "slug": "binary-search",
+      "title": "Binary Search",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0704-binary-search",
+      "url": "https://leetcode.com/problems/binary-search/"
+    },
+    {
       "id": 739,
       "slug": "daily-temperatures",
       "title": "Daily Temperatures",
@@ -427,6 +487,21 @@
       ],
       "path": "0853-car-fleet",
       "url": "https://leetcode.com/problems/car-fleet/"
+    },
+    {
+      "id": 875,
+      "slug": "koko-eating-bananas",
+      "title": "Koko Eating Bananas",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0875-koko-eating-bananas",
+      "url": "https://leetcode.com/problems/koko-eating-bananas/"
     },
     {
       "id": 994,

@@ -12,6 +12,7 @@ import json
 import os
 from pathlib import Path
 import re
+import subprocess
 import sys
 from urllib.parse import quote
 
@@ -68,6 +69,7 @@ class Problem:
     url: str
     solution_path: str
     tested: bool
+    solved: str | None = None
 
     def as_json(self) -> dict[str, object]:
         return {
@@ -79,6 +81,7 @@ class Problem:
             "languages": list(self.languages),
             "path": self.path,
             "url": self.url,
+            "solved": self.solved,
         }
 
 
@@ -290,7 +293,36 @@ def topics_from(value: object) -> tuple[str, ...]:
     return tuple(unique(values))
 
 
-def problem_from_directory(directory: Path) -> Problem | None:
+def solved_dates(root: Path) -> dict[str, str]:
+    """The day each top-level directory first entered the history, by author date.
+
+    Empty when the root is not a git checkout, so fixtures and exported trees still generate.
+    A shallow clone would misdate the oldest problems; CI fetches the full history.
+    """
+    try:
+        log = subprocess.run(
+            [
+                "git", "-C", str(root), "log", "--diff-filter=A", "--reverse", "--relative",
+                "--name-only", "--format=%x00%as", "--", ".",
+            ],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            check=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return {}
+    dates: dict[str, str] = {}
+    current = ""
+    for line in log.stdout.splitlines():
+        if line.startswith("\x00"):
+            current = line[1:].strip()
+        elif line.strip() and current:
+            dates.setdefault(line.split("/", 1)[0], current)
+    return dates
+
+
+def problem_from_directory(directory: Path, solved: str | None = None) -> Problem | None:
     solutions = solution_files(directory)
     if not solutions:
         return None
@@ -338,11 +370,13 @@ def problem_from_directory(directory: Path) -> Problem | None:
         url=f"https://leetcode.com/problems/{slug}/",
         solution_path=solution_path,
         tested=tested,
+        solved=solved,
     )
 
 
 def discover_problems(root: Path) -> list[Problem]:
     problems: list[Problem] = []
+    dates = solved_dates(root)
     for directory in sorted(root.iterdir(), key=lambda path: path.name.casefold()):
         if (
             not directory.is_dir()
@@ -350,7 +384,7 @@ def discover_problems(root: Path) -> list[Problem]:
             or directory.name in IGNORED_DIRECTORIES
         ):
             continue
-        problem = problem_from_directory(directory)
+        problem = problem_from_directory(directory, dates.get(directory.name))
         if problem is not None:
             problems.append(problem)
     return sorted(
@@ -417,8 +451,8 @@ def render_index(problems: list[Problem], counts: dict[str, int]) -> str:
         f"**Solved:** {counts['total']} total | {counts['easy']} easy | "
         f"{counts['medium']} medium | {counts['hard']} hard",
         "",
-        "| # | Title | Difficulty | Topics | Language |",
-        "| ---: | --- | --- | --- | --- |",
+        "| # | Title | Difficulty | Topics | Language | Solved |",
+        "| ---: | --- | --- | --- | --- | --- |",
     ]
     for problem in problems:
         number = problem.id if problem.id is not None else "-"
@@ -429,7 +463,8 @@ def render_index(problems: list[Problem], counts: dict[str, int]) -> str:
         if not problem.tested:
             languages += " (untested)"
         lines.append(
-            f"| {number} | {title} | {problem.difficulty} | {topics} | {languages} |"
+            f"| {number} | {title} | {problem.difficulty} | {topics} | {languages} | "
+            f"{problem.solved or '-'} |"
         )
     return "\n".join(lines)
 

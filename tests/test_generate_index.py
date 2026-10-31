@@ -105,6 +105,7 @@ class GenerateIndexTests(unittest.TestCase):
                 "languages": ["C++"],
                 "path": "binary-tree-paths",
                 "url": "https://leetcode.com/problems/binary-tree-paths/",
+                "solved": None,
             },
         )
         self.assertEqual(manifest["problems"][1]["difficulty"], "Medium")
@@ -127,6 +128,42 @@ class GenerateIndexTests(unittest.TestCase):
             "[Plain Slug](plain-slug/answer.js) | Unknown | - | JavaScript (untested)",
             readme,
         )
+
+    def git(self, *arguments: str, date: str = "2026-08-27T22:53:28-04:00"):
+        environment = os.environ.copy()
+        environment.update(GIT_AUTHOR_DATE=date, GIT_COMMITTER_DATE=date)
+        return subprocess.run(
+            [
+                "git", "-C", str(self.repo), "-c", "user.name=fixture", "-c", "user.email=fixture@example.com",
+                "-c", "commit.gpgsign=false", *arguments,
+            ],
+            text=True,
+            capture_output=True,
+            env=environment,
+            check=True,
+        )
+
+    def test_records_the_day_each_problem_first_entered_history(self):
+        self.add_fixture_problems()
+        self.git("init", "-q")
+        self.git("add", "README.md", "binary-tree-paths")
+        self.git("commit", "-q", "-m", "first", date="2026-08-27T22:53:28-04:00")
+        self.git("add", "-A")
+        self.git("commit", "-q", "-m", "second", date="2026-09-20T04:15:11-04:00")
+        (self.repo / "binary-tree-paths" / "notes.md").write_text("later\n", encoding="utf-8")
+        self.git("add", "-A")
+        self.git("commit", "-q", "-m", "third", date="2026-10-30T09:00:00-04:00")
+
+        result = self.run_generator()
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest = json.loads((self.repo / "problems.json").read_text(encoding="utf-8"))
+        solved = {item["slug"]: item["solved"] for item in manifest["problems"]}
+        self.assertEqual(solved["binary-tree-paths"], "2026-08-27")
+        self.assertEqual(solved["top-k-frequent-elements"], "2026-09-20")
+        self.assertEqual(solved["plain-slug"], "2026-09-20")
+        readme = (self.repo / "README.md").read_text(encoding="utf-8")
+        self.assertIn("| Tree, Depth-First Search | C++ | 2026-08-27 |", readme)
 
     def test_repeated_generation_preserves_timestamp_and_bytes(self):
         self.add_fixture_problems()

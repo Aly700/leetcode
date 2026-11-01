@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-31T03:34:16Z",
+  "generated": "2026-11-01T01:31:15Z",
   "counts": {
-    "easy": 10,
-    "medium": 24,
+    "easy": 11,
+    "medium": 25,
     "hard": 1,
-    "total": 35
+    "total": 37
   },
   "problems": [
     {
@@ -275,6 +275,41 @@
       "path": "0128-longest-consecutive-sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
       "solved": "2026-08-14"
+    },
+    {
+      "id": 141,
+      "slug": "linked-list-cycle",
+      "title": "Linked List Cycle",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Linked List",
+        "Two Pointers"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0141-linked-list-cycle",
+      "url": "https://leetcode.com/problems/linked-list-cycle/",
+      "solved": null
+    },
+    {
+      "id": 143,
+      "slug": "reorder-list",
+      "title": "Reorder List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers",
+        "Stack",
+        "Recursion"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0143-reorder-list",
+      "url": "https://leetcode.com/problems/reorder-list/",
+      "solved": null
     },
     {
       "id": 153,

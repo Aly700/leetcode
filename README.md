@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 35 total | 10 easy | 24 medium | 1 hard
+**Solved:** 37 total | 11 easy | 25 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -25,6 +25,8 @@ directories, and every solution runs its example cases in CI.
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
+| 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | - |
+| 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | - |
 | 153 | [Find Minimum in Rotated Sorted Array](0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
 | 155 | [Min Stack](0155-min-stack/0155-min-stack.py) | Medium | Stack, Design | Python | 2026-08-18 |
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python | 2026-08-16 |

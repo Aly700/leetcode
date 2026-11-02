@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-02T01:45:13Z",
+  "generated": "2026-11-02T23:17:13Z",
   "counts": {
     "easy": 11,
-    "medium": 26,
+    "medium": 29,
     "hard": 1,
-    "total": 38
+    "total": 41
   },
   "problems": [
     {
@@ -22,6 +22,23 @@
       "path": "0001-two-sum",
       "url": "https://leetcode.com/problems/two-sum/",
       "solved": "2026-08-27"
+    },
+    {
+      "id": 2,
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Math",
+        "Recursion"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0002-add-two-numbers",
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "solved": null
     },
     {
       "id": 3,
@@ -88,7 +105,7 @@
       ],
       "path": "0019-remove-nth-node-from-end-of-list",
       "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-      "solved": null
+      "solved": "2026-11-02"
     },
     {
       "id": 20,
@@ -291,6 +308,22 @@
       "path": "0128-longest-consecutive-sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
       "solved": "2026-08-14"
+    },
+    {
+      "id": 138,
+      "slug": "copy-list-with-random-pointer",
+      "title": "Copy List with Random Pointer",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Linked List"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0138-copy-list-with-random-pointer",
+      "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+      "solved": null
     },
     {
       "id": 141,
@@ -600,6 +633,24 @@
       "path": "0875-koko-eating-bananas",
       "url": "https://leetcode.com/problems/koko-eating-bananas/",
       "solved": "2026-10-29"
+    },
+    {
+      "id": 981,
+      "slug": "time-based-key-value-store",
+      "title": "Time Based Key-Value Store",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Binary Search",
+        "Design"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0981-time-based-key-value-store",
+      "url": "https://leetcode.com/problems/time-based-key-value-store/",
+      "solved": null
     },
     {
       "id": 994,

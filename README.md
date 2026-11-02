@@ -5,15 +5,16 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 38 total | 11 easy | 26 medium | 1 hard
+**Solved:** 41 total | 11 easy | 29 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](0001-two-sum/0001-two-sum.py) | Easy | Array, Hash Table | Python | 2026-08-27 |
+| 2 | [Add Two Numbers](0002-add-two-numbers/0002-add-two-numbers.py) | Medium | Linked List, Math, Recursion | Python | - |
 | 3 | [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-17 |
 | 11 | [Container With Most Water](0011-container-with-most-water/0011-container-with-most-water.py) | Medium | Array, Two Pointers, Greedy | Python | 2026-09-15 |
 | 15 | [3Sum](0015-3sum/0015-3sum.py) | Medium | Array, Two Pointers, Sorting | Python | 2026-08-16 |
-| 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | - |
+| 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-02 |
 | 20 | [Valid Parentheses](0020-valid-parentheses/0020-valid-parentheses.py) | Easy | String, Stack, Bracket Sequences | Python | 2026-08-18 |
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-31 |
@@ -26,6 +27,7 @@ directories, and every solution runs its example cases in CI.
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
+| 138 | [Copy List with Random Pointer](0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | Medium | Hash Table, Linked List | Python | - |
 | 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | 2026-11-01 |
 | 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | 2026-11-01 |
 | 153 | [Find Minimum in Rotated Sorted Array](0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
@@ -44,6 +46,7 @@ directories, and every solution runs its example cases in CI.
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python | 2026-08-19 |
 | 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python | 2026-08-19 |
 | 875 | [Koko Eating Bananas](0875-koko-eating-bananas/0875-koko-eating-bananas.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
+| 981 | [Time Based Key-Value Store](0981-time-based-key-value-store/0981-time-based-key-value-store.py) | Medium | Hash Table, String, Binary Search, Design | Python | - |
 | 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python | 2026-09-03 |
 | 2043 | [Simple Bank System](2043-simple-bank-system/2043-simple-bank-system.py) | Medium | Array, Hash Table, Design, Simulation | Python | 2026-09-20 |
 | 3043 | [Find the Length of the Longest Common Prefix](3043-find-the-length-of-the-longest-common-prefix/3043-find-the-length-of-the-longest-common-prefix.py) | Medium | Array, Hash Table, String, Trie | Python | 2026-09-20 |

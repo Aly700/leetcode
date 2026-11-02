@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-01T01:31:27Z",
+  "generated": "2026-11-02T01:45:13Z",
   "counts": {
     "easy": 11,
-    "medium": 25,
+    "medium": 26,
     "hard": 1,
-    "total": 37
+    "total": 38
   },
   "problems": [
     {
@@ -73,6 +73,22 @@
       "path": "0015-3sum",
       "url": "https://leetcode.com/problems/3sum/",
       "solved": "2026-08-16"
+    },
+    {
+      "id": 19,
+      "slug": "remove-nth-node-from-end-of-list",
+      "title": "Remove Nth Node From End of List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0019-remove-nth-node-from-end-of-list",
+      "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+      "solved": null
     },
     {
       "id": 20,

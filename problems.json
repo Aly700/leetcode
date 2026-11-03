@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T23:17:13Z",
+  "generated": "2026-11-03T00:31:28Z",
   "counts": {
     "easy": 11,
     "medium": 29,
@@ -38,7 +38,7 @@
       ],
       "path": "0002-add-two-numbers",
       "url": "https://leetcode.com/problems/add-two-numbers/",
-      "solved": null
+      "solved": "2026-11-02"
     },
     {
       "id": 3,
@@ -323,7 +323,7 @@
       ],
       "path": "0138-copy-list-with-random-pointer",
       "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-      "solved": null
+      "solved": "2026-11-02"
     },
     {
       "id": 141,
@@ -650,7 +650,7 @@
       ],
       "path": "0981-time-based-key-value-store",
       "url": "https://leetcode.com/problems/time-based-key-value-store/",
-      "solved": null
+      "solved": "2026-11-02"
     },
     {
       "id": 994,

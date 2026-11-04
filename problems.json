@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-03T00:31:28Z",
+  "generated": "2026-11-04T01:31:15Z",
   "counts": {
-    "easy": 11,
+    "easy": 12,
     "medium": 29,
     "hard": 1,
-    "total": 41
+    "total": 42
   },
   "problems": [
     {
@@ -443,6 +443,24 @@
       "path": "0206-reverse-linked-list",
       "url": "https://leetcode.com/problems/reverse-linked-list/",
       "solved": "2026-10-29"
+    },
+    {
+      "id": 226,
+      "slug": "invert-binary-tree",
+      "title": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0226-invert-binary-tree",
+      "url": "https://leetcode.com/problems/invert-binary-tree/",
+      "solved": "2026-11-04"
     },
     {
       "id": 238,

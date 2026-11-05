@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-04T01:31:15Z",
+  "generated": "2026-11-05T03:01:13Z",
   "counts": {
     "easy": 12,
-    "medium": 29,
+    "medium": 30,
     "hard": 1,
-    "total": 42
+    "total": 43
   },
   "problems": [
     {
@@ -477,6 +477,24 @@
       "path": "0238-product-of-array-except-self",
       "url": "https://leetcode.com/problems/product-of-array-except-self/",
       "solved": "2026-08-13"
+    },
+    {
+      "id": 287,
+      "slug": "find-the-duplicate-number",
+      "title": "Find the Duplicate Number",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Bit Manipulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0287-find-the-duplicate-number",
+      "url": "https://leetcode.com/problems/find-the-duplicate-number/",
+      "solved": "2026-11-05"
     },
     {
       "id": 347,

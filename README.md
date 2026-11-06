@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 43 total | 12 easy | 30 medium | 1 hard
+**Solved:** 45 total | 13 easy | 31 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@ directories, and every solution runs its example cases in CI.
 | 138 | [Copy List with Random Pointer](0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | Medium | Hash Table, Linked List | Python | 2026-11-02 |
 | 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | 2026-11-01 |
 | 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | 2026-11-01 |
+| 146 | [LRU Cache](0146-lru-cache/0146-lru-cache.py) | Medium | Hash Table, Linked List, Design, Doubly-Linked List | Python | 2026-11-06 |
 | 153 | [Find Minimum in Rotated Sorted Array](0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
 | 155 | [Min Stack](0155-min-stack/0155-min-stack.py) | Medium | Stack, Design | Python | 2026-08-18 |
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python | 2026-08-16 |
@@ -41,6 +42,7 @@ directories, and every solution runs its example cases in CI.
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python | 2026-08-13 |
 | 424 | [Longest Repeating Character Replacement](0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-25 |
 | 496 | [Next Greater Element I](0496-next-greater-element-i/0496-next-greater-element-i.py) | Easy | Array, Hash Table, Stack, Monotonic Stack | Python | 2026-09-01 |
+| 543 | [Diameter of Binary Tree](0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.py) | Easy | Tree, Depth-First Search, Binary Tree | Python | 2026-11-06 |
 | 560 | [Subarray Sum Equals K](0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Medium | Array, Hash Table, Prefix Sum | Python | 2026-08-27 |
 | 566 | [Reshape the Matrix](0566-reshape-the-matrix/0566-reshape-the-matrix.py) | Easy | Array, Matrix, Simulation | Python | 2026-08-30 |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python | 2026-08-27 |

@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 45 total | 13 easy | 31 medium | 1 hard
+**Solved:** 48 total | 14 easy | 33 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ directories, and every solution runs its example cases in CI.
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
+| 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
@@ -37,6 +38,7 @@ directories, and every solution runs its example cases in CI.
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python | 2026-08-13 |
 | 287 | [Find the Duplicate Number](0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | Medium | Array, Two Pointers, Binary Search, Bit Manipulation | Python | 2026-11-05 |
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python | 2026-08-13 |
@@ -45,6 +47,7 @@ directories, and every solution runs its example cases in CI.
 | 543 | [Diameter of Binary Tree](0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.py) | Easy | Tree, Depth-First Search, Binary Tree | Python | 2026-11-06 |
 | 560 | [Subarray Sum Equals K](0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Medium | Array, Hash Table, Prefix Sum | Python | 2026-08-27 |
 | 566 | [Reshape the Matrix](0566-reshape-the-matrix/0566-reshape-the-matrix.py) | Easy | Array, Matrix, Simulation | Python | 2026-08-30 |
+| 572 | [Subtree of Another Tree](0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | Easy | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | Python | 2026-11-07 |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python | 2026-08-27 |
 | 704 | [Binary Search](0704-binary-search/0704-binary-search.py) | Easy | Array, Binary Search | Python | 2026-10-29 |
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python | 2026-08-19 |

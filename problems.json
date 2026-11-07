@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-06T00:32:10Z",
+  "generated": "2026-11-07T00:15:12Z",
   "counts": {
-    "easy": 13,
-    "medium": 31,
+    "easy": 14,
+    "medium": 33,
     "hard": 1,
-    "total": 45
+    "total": 48
   },
   "problems": [
     {
@@ -261,6 +261,23 @@
       "solved": "2026-08-20"
     },
     {
+      "id": 102,
+      "slug": "binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0102-binary-tree-level-order-traversal",
+      "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      "solved": "2026-11-07"
+    },
+    {
       "id": 121,
       "slug": "best-time-to-buy-and-sell-stock",
       "title": "Best Time to Buy and Sell Stock",
@@ -481,6 +498,24 @@
       "solved": "2026-11-04"
     },
     {
+      "id": 235,
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0235-lowest-common-ancestor-of-a-binary-search-tree",
+      "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+      "solved": "2026-11-07"
+    },
+    {
       "id": 238,
       "slug": "product-of-array-except-self",
       "title": "Product of Array Except Self",
@@ -621,6 +656,25 @@
       "path": "0566-reshape-the-matrix",
       "url": "https://leetcode.com/problems/reshape-the-matrix/",
       "solved": "2026-08-30"
+    },
+    {
+      "id": 572,
+      "slug": "subtree-of-another-tree",
+      "title": "Subtree of Another Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "String Matching",
+        "Binary Tree",
+        "Hash Function"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0572-subtree-of-another-tree",
+      "url": "https://leetcode.com/problems/subtree-of-another-tree/",
+      "solved": "2026-11-07"
     },
     {
       "id": 643,

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-07T00:15:12Z",
+  "generated": "2026-11-08T03:04:11Z",
   "counts": {
     "easy": 14,
-    "medium": 33,
+    "medium": 36,
     "hard": 1,
-    "total": 48
+    "total": 51
   },
   "problems": [
     {
@@ -261,6 +261,24 @@
       "solved": "2026-08-20"
     },
     {
+      "id": 98,
+      "slug": "validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0098-validate-binary-search-tree",
+      "url": "https://leetcode.com/problems/validate-binary-search-tree/",
+      "solved": "2026-11-08"
+    },
+    {
       "id": 102,
       "slug": "binary-tree-level-order-traversal",
       "title": "Binary Tree Level Order Traversal",
@@ -443,6 +461,24 @@
       "path": "0167-two-sum-ii-input-array-is-sorted",
       "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
       "solved": "2026-08-16"
+    },
+    {
+      "id": 199,
+      "slug": "binary-tree-right-side-view",
+      "title": "Binary Tree Right Side View",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0199-binary-tree-right-side-view",
+      "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+      "solved": "2026-11-08"
     },
     {
       "id": 200,
@@ -793,6 +829,24 @@
       "path": "0994-rotting-oranges",
       "url": "https://leetcode.com/problems/rotting-oranges/",
       "solved": "2026-09-03"
+    },
+    {
+      "id": 1448,
+      "slug": "count-good-nodes-in-binary-tree",
+      "title": "Count Good Nodes in Binary Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "1448-count-good-nodes-in-binary-tree",
+      "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+      "solved": "2026-11-08"
     },
     {
       "id": 2043,

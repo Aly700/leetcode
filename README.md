@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 48 total | 14 easy | 33 medium | 1 hard
+**Solved:** 51 total | 14 easy | 36 medium | 1 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@ directories, and every solution runs its example cases in CI.
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
+| 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
 | 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
@@ -35,6 +36,7 @@ directories, and every solution runs its example cases in CI.
 | 153 | [Find Minimum in Rotated Sorted Array](0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
 | 155 | [Min Stack](0155-min-stack/0155-min-stack.py) | Medium | Stack, Design | Python | 2026-08-18 |
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python | 2026-08-16 |
+| 199 | [Binary Tree Right Side View](0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
@@ -55,6 +57,7 @@ directories, and every solution runs its example cases in CI.
 | 875 | [Koko Eating Bananas](0875-koko-eating-bananas/0875-koko-eating-bananas.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
 | 981 | [Time Based Key-Value Store](0981-time-based-key-value-store/0981-time-based-key-value-store.py) | Medium | Hash Table, String, Binary Search, Design | Python | 2026-11-02 |
 | 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python | 2026-09-03 |
+| 1448 | [Count Good Nodes in Binary Tree](1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |
 | 2043 | [Simple Bank System](2043-simple-bank-system/2043-simple-bank-system.py) | Medium | Array, Hash Table, Design, Simulation | Python | 2026-09-20 |
 | 3043 | [Find the Length of the Longest Common Prefix](3043-find-the-length-of-the-longest-common-prefix/3043-find-the-length-of-the-longest-common-prefix.py) | Medium | Array, Hash Table, String, Trie | Python | 2026-09-20 |
 <!-- INDEX:END -->

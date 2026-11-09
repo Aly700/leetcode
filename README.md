@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 51 total | 14 easy | 36 medium | 1 hard
+**Solved:** 54 total | 14 easy | 38 medium | 2 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ directories, and every solution runs its example cases in CI.
 | 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-02 |
 | 20 | [Valid Parentheses](0020-valid-parentheses/0020-valid-parentheses.py) | Easy | String, Stack, Bracket Sequences | Python | 2026-08-18 |
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
+| 23 | [Merge k Sorted Lists](0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Python | 2026-11-09 |
 | 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-31 |
 | 48 | [Rotate Image](0048-rotate-image/0048-rotate-image.py) | Medium | Array, Math, Matrix | Python | 2026-08-30 |
 | 49 | [Group Anagrams](0049-group-anagrams/0049-group-anagrams.py) | Medium | Array, Hash Table, String, Sorting | Python | 2026-08-27 |
@@ -26,6 +27,7 @@ directories, and every solution runs its example cases in CI.
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
 | 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
 | 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py) | Medium | Array, Hash Table, Divide and Conquer, Tree, Binary Tree | Python | 2026-11-09 |
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
@@ -40,6 +42,7 @@ directories, and every solution runs its example cases in CI.
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
+| 230 | [Kth Smallest Element in a BST](0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-09 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python | 2026-08-13 |
 | 287 | [Find the Duplicate Number](0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | Medium | Array, Two Pointers, Binary Search, Bit Manipulation | Python | 2026-11-05 |

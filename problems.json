@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-08T03:04:11Z",
+  "generated": "2026-11-09T00:03:16Z",
   "counts": {
     "easy": 14,
-    "medium": 36,
-    "hard": 1,
-    "total": 51
+    "medium": 38,
+    "hard": 2,
+    "total": 54
   },
   "problems": [
     {
@@ -139,6 +139,24 @@
       "path": "0021-merge-two-sorted-lists",
       "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
       "solved": "2026-10-29"
+    },
+    {
+      "id": 23,
+      "slug": "merge-k-sorted-lists",
+      "title": "Merge k Sorted Lists",
+      "difficulty": "Hard",
+      "topics": [
+        "Linked List",
+        "Divide and Conquer",
+        "Heap (Priority Queue)",
+        "Merge Sort"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0023-merge-k-sorted-lists",
+      "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+      "solved": "2026-11-09"
     },
     {
       "id": 33,
@@ -294,6 +312,25 @@
       "path": "0102-binary-tree-level-order-traversal",
       "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
       "solved": "2026-11-07"
+    },
+    {
+      "id": 105,
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      "solved": "2026-11-09"
     },
     {
       "id": 121,
@@ -532,6 +569,24 @@
       "path": "0226-invert-binary-tree",
       "url": "https://leetcode.com/problems/invert-binary-tree/",
       "solved": "2026-11-04"
+    },
+    {
+      "id": 230,
+      "slug": "kth-smallest-element-in-a-bst",
+      "title": "Kth Smallest Element in a BST",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0230-kth-smallest-element-in-a-bst",
+      "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+      "solved": "2026-11-09"
     },
     {
       "id": 235,

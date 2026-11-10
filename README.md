@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 54 total | 14 easy | 38 medium | 2 hard
+**Solved:** 56 total | 14 easy | 40 medium | 2 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -41,6 +41,8 @@ directories, and every solution runs its example cases in CI.
 | 199 | [Binary Tree Right Side View](0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
+| 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-10 |
+| 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-10 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
 | 230 | [Kth Smallest Element in a BST](0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-09 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |

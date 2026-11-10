@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-10T01:34:10Z",
+  "generated": "2026-11-10T22:14:12Z",
   "counts": {
     "easy": 14,
-    "medium": 40,
+    "medium": 43,
     "hard": 2,
-    "total": 56
+    "total": 59
   },
   "problems": [
     {
@@ -589,6 +589,25 @@
       "solved": "2026-11-10"
     },
     {
+      "id": 215,
+      "slug": "kth-largest-element-in-an-array",
+      "title": "Kth Largest Element in an Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Quickselect"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0215-kth-largest-element-in-an-array",
+      "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "solved": "2026-11-10"
+    },
+    {
       "id": 226,
       "slug": "invert-binary-tree",
       "title": "Invert Binary Tree",
@@ -804,6 +823,26 @@
       "solved": "2026-11-07"
     },
     {
+      "id": 621,
+      "slug": "task-scheduler",
+      "title": "Task Scheduler",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Counting"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0621-task-scheduler",
+      "url": "https://leetcode.com/problems/task-scheduler/",
+      "solved": "2026-11-10"
+    },
+    {
       "id": 643,
       "slug": "maximum-average-subarray-i",
       "title": "Maximum Average Subarray I",
@@ -885,6 +924,27 @@
       "path": "0875-koko-eating-bananas",
       "url": "https://leetcode.com/problems/koko-eating-bananas/",
       "solved": "2026-10-29"
+    },
+    {
+      "id": 973,
+      "slug": "k-closest-points-to-origin",
+      "title": "K Closest Points to Origin",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Divide and Conquer",
+        "Geometry",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Quickselect"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0973-k-closest-points-to-origin",
+      "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+      "solved": "2026-11-10"
     },
     {
       "id": 981,

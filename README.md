@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 56 total | 14 easy | 40 medium | 2 hard
+**Solved:** 59 total | 14 easy | 43 medium | 2 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -43,6 +43,7 @@ directories, and every solution runs its example cases in CI.
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-10 |
 | 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-10 |
+| 215 | [Kth Largest Element in an Array](0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
 | 230 | [Kth Smallest Element in a BST](0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-09 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |
@@ -55,11 +56,13 @@ directories, and every solution runs its example cases in CI.
 | 560 | [Subarray Sum Equals K](0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Medium | Array, Hash Table, Prefix Sum | Python | 2026-08-27 |
 | 566 | [Reshape the Matrix](0566-reshape-the-matrix/0566-reshape-the-matrix.py) | Easy | Array, Matrix, Simulation | Python | 2026-08-30 |
 | 572 | [Subtree of Another Tree](0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | Easy | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | Python | 2026-11-07 |
+| 621 | [Task Scheduler](0621-task-scheduler/0621-task-scheduler.py) | Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Python | 2026-11-10 |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python | 2026-08-27 |
 | 704 | [Binary Search](0704-binary-search/0704-binary-search.py) | Easy | Array, Binary Search | Python | 2026-10-29 |
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python | 2026-08-19 |
 | 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python | 2026-08-19 |
 | 875 | [Koko Eating Bananas](0875-koko-eating-bananas/0875-koko-eating-bananas.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
+| 973 | [K Closest Points to Origin](0973-k-closest-points-to-origin/0973-k-closest-points-to-origin.py) | Medium | Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |
 | 981 | [Time Based Key-Value Store](0981-time-based-key-value-store/0981-time-based-key-value-store.py) | Medium | Hash Table, String, Binary Search, Design | Python | 2026-11-02 |
 | 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python | 2026-09-03 |
 | 1448 | [Count Good Nodes in Binary Tree](1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |

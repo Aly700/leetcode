@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-12T02:43:24Z",
+  "generated": "2026-11-12T23:16:13Z",
   "counts": {
     "easy": 14,
-    "medium": 45,
+    "medium": 46,
     "hard": 3,
-    "total": 62
+    "total": 63
   },
   "problems": [
     {
@@ -190,6 +190,22 @@
       "path": "0033-search-in-rotated-sorted-array",
       "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
       "solved": "2026-10-31"
+    },
+    {
+      "id": 39,
+      "slug": "combination-sum",
+      "title": "Combination Sum",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0039-combination-sum",
+      "url": "https://leetcode.com/problems/combination-sum/",
+      "solved": "2026-11-12"
     },
     {
       "id": 46,

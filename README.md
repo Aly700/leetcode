@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 62 total | 14 easy | 45 medium | 3 hard
+**Solved:** 63 total | 14 easy | 46 medium | 3 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -20,6 +20,7 @@ directories, and every solution runs its example cases in CI.
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 23 | [Merge k Sorted Lists](0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Python | 2026-11-09 |
 | 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-31 |
+| 39 | [Combination Sum](0039-combination-sum/0039-combination-sum.py) | Medium | Array, Backtracking | Python | 2026-11-12 |
 | 46 | [Permutations](0046-permutations/0046-permutations.py) | Medium | Array, Backtracking | Python | 2026-11-12 |
 | 48 | [Rotate Image](0048-rotate-image/0048-rotate-image.py) | Medium | Array, Math, Matrix | Python | 2026-08-30 |
 | 49 | [Group Anagrams](0049-group-anagrams/0049-group-anagrams.py) | Medium | Array, Hash Table, String, Sorting | Python | 2026-08-27 |

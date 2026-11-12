@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-10T22:14:12Z",
+  "generated": "2026-11-12T02:43:24Z",
   "counts": {
     "easy": 14,
-    "medium": 43,
-    "hard": 2,
-    "total": 59
+    "medium": 45,
+    "hard": 3,
+    "total": 62
   },
   "problems": [
     {
@@ -56,6 +56,23 @@
       "path": "0003-longest-substring-without-repeating-characters",
       "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
       "solved": "2026-08-17"
+    },
+    {
+      "id": 4,
+      "slug": "median-of-two-sorted-arrays",
+      "title": "Median of Two Sorted Arrays",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0004-median-of-two-sorted-arrays",
+      "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      "solved": "2026-11-12"
     },
     {
       "id": 11,
@@ -175,6 +192,22 @@
       "solved": "2026-10-31"
     },
     {
+      "id": 46,
+      "slug": "permutations",
+      "title": "Permutations",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0046-permutations",
+      "url": "https://leetcode.com/problems/permutations/",
+      "solved": "2026-11-12"
+    },
+    {
       "id": 48,
       "slug": "rotate-image",
       "title": "Rotate Image",
@@ -259,6 +292,23 @@
       "path": "0074-search-a-2d-matrix",
       "url": "https://leetcode.com/problems/search-a-2d-matrix/",
       "solved": "2026-08-25"
+    },
+    {
+      "id": 78,
+      "slug": "subsets",
+      "title": "Subsets",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking",
+        "Bit Manipulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0078-subsets",
+      "url": "https://leetcode.com/problems/subsets/",
+      "solved": "2026-11-12"
     },
     {
       "id": 84,

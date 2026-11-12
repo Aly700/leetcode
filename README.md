@@ -5,13 +5,14 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 59 total | 14 easy | 43 medium | 2 hard
+**Solved:** 62 total | 14 easy | 45 medium | 3 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](0001-two-sum/0001-two-sum.py) | Easy | Array, Hash Table | Python | 2026-08-27 |
 | 2 | [Add Two Numbers](0002-add-two-numbers/0002-add-two-numbers.py) | Medium | Linked List, Math, Recursion | Python | 2026-11-02 |
 | 3 | [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-17 |
+| 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.py) | Hard | Array, Binary Search, Divide and Conquer | Python | 2026-11-12 |
 | 11 | [Container With Most Water](0011-container-with-most-water/0011-container-with-most-water.py) | Medium | Array, Two Pointers, Greedy | Python | 2026-09-15 |
 | 15 | [3Sum](0015-3sum/0015-3sum.py) | Medium | Array, Two Pointers, Sorting | Python | 2026-08-16 |
 | 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-02 |
@@ -19,11 +20,13 @@ directories, and every solution runs its example cases in CI.
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 23 | [Merge k Sorted Lists](0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Python | 2026-11-09 |
 | 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-31 |
+| 46 | [Permutations](0046-permutations/0046-permutations.py) | Medium | Array, Backtracking | Python | 2026-11-12 |
 | 48 | [Rotate Image](0048-rotate-image/0048-rotate-image.py) | Medium | Array, Math, Matrix | Python | 2026-08-30 |
 | 49 | [Group Anagrams](0049-group-anagrams/0049-group-anagrams.py) | Medium | Array, Hash Table, String, Sorting | Python | 2026-08-27 |
 | 54 | [Spiral Matrix](0054-spiral-matrix/0054-spiral-matrix.py) | Medium | Array, Matrix, Simulation | Python | 2026-09-15 |
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |
+| 78 | [Subsets](0078-subsets/0078-subsets.py) | Medium | Array, Backtracking, Bit Manipulation | Python | 2026-11-12 |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
 | 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
 | 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |

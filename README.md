@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 63 total | 14 easy | 46 medium | 3 hard
+**Solved:** 64 total | 14 easy | 47 medium | 3 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@ directories, and every solution runs its example cases in CI.
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |
 | 78 | [Subsets](0078-subsets/0078-subsets.py) | Medium | Array, Backtracking, Bit Manipulation | Python | 2026-11-12 |
+| 79 | [Word Search](0079-word-search/0079-word-search.py) | Medium | Array, String, Backtracking, Depth-First Search, Matrix | Python | 2026-11-14 |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
 | 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
 | 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |

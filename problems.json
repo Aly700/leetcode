@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T01:44:17Z",
+  "generated": "2026-11-14T04:31:09Z",
   "counts": {
     "easy": 14,
     "medium": 47,
@@ -72,7 +72,7 @@
       ],
       "path": "0004-median-of-two-sorted-arrays",
       "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-      "solved": "2026-11-12"
+      "solved": "2026-11-11"
     },
     {
       "id": 11,
@@ -122,7 +122,7 @@
       ],
       "path": "0019-remove-nth-node-from-end-of-list",
       "url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-      "solved": "2026-11-02"
+      "solved": "2026-11-01"
     },
     {
       "id": 20,
@@ -173,7 +173,7 @@
       ],
       "path": "0023-merge-k-sorted-lists",
       "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
-      "solved": "2026-11-09"
+      "solved": "2026-11-08"
     },
     {
       "id": 33,
@@ -189,7 +189,7 @@
       ],
       "path": "0033-search-in-rotated-sorted-array",
       "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-      "solved": "2026-10-31"
+      "solved": "2026-10-30"
     },
     {
       "id": 39,
@@ -221,7 +221,7 @@
       ],
       "path": "0046-permutations",
       "url": "https://leetcode.com/problems/permutations/",
-      "solved": "2026-11-12"
+      "solved": "2026-11-11"
     },
     {
       "id": 48,
@@ -324,7 +324,7 @@
       ],
       "path": "0078-subsets",
       "url": "https://leetcode.com/problems/subsets/",
-      "solved": "2026-11-12"
+      "solved": "2026-11-11"
     },
     {
       "id": 79,
@@ -343,7 +343,7 @@
       ],
       "path": "0079-word-search",
       "url": "https://leetcode.com/problems/word-search/",
-      "solved": "2026-11-14"
+      "solved": "2026-11-13"
     },
     {
       "id": 84,
@@ -379,7 +379,7 @@
       ],
       "path": "0098-validate-binary-search-tree",
       "url": "https://leetcode.com/problems/validate-binary-search-tree/",
-      "solved": "2026-11-08"
+      "solved": "2026-11-07"
     },
     {
       "id": 102,
@@ -396,7 +396,7 @@
       ],
       "path": "0102-binary-tree-level-order-traversal",
       "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-      "solved": "2026-11-07"
+      "solved": "2026-11-06"
     },
     {
       "id": 105,
@@ -415,7 +415,7 @@
       ],
       "path": "0105-construct-binary-tree-from-preorder-and-inorder-traversal",
       "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-      "solved": "2026-11-09"
+      "solved": "2026-11-08"
     },
     {
       "id": 121,
@@ -497,7 +497,7 @@
       ],
       "path": "0141-linked-list-cycle",
       "url": "https://leetcode.com/problems/linked-list-cycle/",
-      "solved": "2026-11-01"
+      "solved": "2026-10-31"
     },
     {
       "id": 143,
@@ -515,7 +515,7 @@
       ],
       "path": "0143-reorder-list",
       "url": "https://leetcode.com/problems/reorder-list/",
-      "solved": "2026-11-01"
+      "solved": "2026-10-31"
     },
     {
       "id": 146,
@@ -533,7 +533,7 @@
       ],
       "path": "0146-lru-cache",
       "url": "https://leetcode.com/problems/lru-cache/",
-      "solved": "2026-11-06"
+      "solved": "2026-11-05"
     },
     {
       "id": 153,
@@ -600,7 +600,7 @@
       ],
       "path": "0199-binary-tree-right-side-view",
       "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
-      "solved": "2026-11-08"
+      "solved": "2026-11-07"
     },
     {
       "id": 200,
@@ -653,7 +653,7 @@
       ],
       "path": "0208-implement-trie-prefix-tree",
       "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
-      "solved": "2026-11-10"
+      "solved": "2026-11-09"
     },
     {
       "id": 211,
@@ -671,7 +671,7 @@
       ],
       "path": "0211-design-add-and-search-words-data-structure",
       "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
-      "solved": "2026-11-10"
+      "solved": "2026-11-09"
     },
     {
       "id": 215,
@@ -708,7 +708,7 @@
       ],
       "path": "0226-invert-binary-tree",
       "url": "https://leetcode.com/problems/invert-binary-tree/",
-      "solved": "2026-11-04"
+      "solved": "2026-11-03"
     },
     {
       "id": 230,
@@ -726,7 +726,7 @@
       ],
       "path": "0230-kth-smallest-element-in-a-bst",
       "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-      "solved": "2026-11-09"
+      "solved": "2026-11-08"
     },
     {
       "id": 235,
@@ -744,7 +744,7 @@
       ],
       "path": "0235-lowest-common-ancestor-of-a-binary-search-tree",
       "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-      "solved": "2026-11-07"
+      "solved": "2026-11-06"
     },
     {
       "id": 238,
@@ -778,7 +778,7 @@
       ],
       "path": "0287-find-the-duplicate-number",
       "url": "https://leetcode.com/problems/find-the-duplicate-number/",
-      "solved": "2026-11-05"
+      "solved": "2026-11-04"
     },
     {
       "id": 347,
@@ -852,7 +852,7 @@
       ],
       "path": "0543-diameter-of-binary-tree",
       "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
-      "solved": "2026-11-06"
+      "solved": "2026-11-05"
     },
     {
       "id": 560,
@@ -905,7 +905,7 @@
       ],
       "path": "0572-subtree-of-another-tree",
       "url": "https://leetcode.com/problems/subtree-of-another-tree/",
-      "solved": "2026-11-07"
+      "solved": "2026-11-06"
     },
     {
       "id": 621,
@@ -1082,7 +1082,7 @@
       ],
       "path": "1448-count-good-nodes-in-binary-tree",
       "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
-      "solved": "2026-11-08"
+      "solved": "2026-11-07"
     },
     {
       "id": 2043,

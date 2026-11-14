@@ -165,6 +165,19 @@ class GenerateIndexTests(unittest.TestCase):
         readme = (self.repo / "README.md").read_text(encoding="utf-8")
         self.assertIn("| Tree, Depth-First Search | C++ | 2026-08-27 |", readme)
 
+    def test_dates_a_late_evening_commit_made_in_utc_by_the_toronto_day(self):
+        self.add_fixture_problems()
+        self.git("init", "-q")
+        self.git("add", "-A")
+        self.git("commit", "-q", "-m", "evening", date="2026-11-14T04:29:00+00:00")
+
+        result = self.run_generator()
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        manifest = json.loads((self.repo / "problems.json").read_text(encoding="utf-8"))
+        solved = {item["slug"]: item["solved"] for item in manifest["problems"]}
+        self.assertEqual(solved["binary-tree-paths"], "2026-11-13")
+
     def test_repeated_generation_preserves_timestamp_and_bytes(self):
         self.add_fixture_problems()
         first = self.run_generator(epoch=10)

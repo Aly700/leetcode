@@ -15,8 +15,10 @@ import re
 import subprocess
 import sys
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 
+SOLVED_TIMEZONE = "America/Toronto"
 INDEX_BEGIN = "<!-- INDEX:BEGIN -->"
 INDEX_END = "<!-- INDEX:END -->"
 
@@ -296,14 +298,17 @@ def topics_from(value: object) -> tuple[str, ...]:
 def solved_dates(root: Path) -> dict[str, str]:
     """The day each top-level directory first entered the history, by author date.
 
+    The day is read in Toronto time whatever timezone the commit was made in, so a late evening
+    commit from a machine on UTC is not dated as the next day.
     Empty when the root is not a git checkout, so fixtures and exported trees still generate.
     A shallow clone would misdate the oldest problems; CI fetches the full history.
     """
+    zone = ZoneInfo(SOLVED_TIMEZONE)
     try:
         log = subprocess.run(
             [
                 "git", "-C", str(root), "log", "--diff-filter=A", "--reverse", "--relative",
-                "--name-only", "--format=%x00%as", "--", ".",
+                "--name-only", "--format=%x00%at", "--", ".",
             ],
             capture_output=True,
             text=True,
@@ -316,7 +321,8 @@ def solved_dates(root: Path) -> dict[str, str]:
     current = ""
     for line in log.stdout.splitlines():
         if line.startswith("\x00"):
-            current = line[1:].strip()
+            stamp = line[1:].strip()
+            current = datetime.fromtimestamp(int(stamp), tz=zone).date().isoformat() if stamp else ""
         elif line.strip() and current:
             dates.setdefault(line.split("/", 1)[0], current)
     return dates

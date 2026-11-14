@@ -12,55 +12,55 @@ directories, and every solution runs its example cases in CI.
 | 1 | [Two Sum](0001-two-sum/0001-two-sum.py) | Easy | Array, Hash Table | Python | 2026-08-27 |
 | 2 | [Add Two Numbers](0002-add-two-numbers/0002-add-two-numbers.py) | Medium | Linked List, Math, Recursion | Python | 2026-11-02 |
 | 3 | [Longest Substring Without Repeating Characters](0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-17 |
-| 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.py) | Hard | Array, Binary Search, Divide and Conquer | Python | 2026-11-12 |
+| 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.py) | Hard | Array, Binary Search, Divide and Conquer | Python | 2026-11-11 |
 | 11 | [Container With Most Water](0011-container-with-most-water/0011-container-with-most-water.py) | Medium | Array, Two Pointers, Greedy | Python | 2026-09-15 |
 | 15 | [3Sum](0015-3sum/0015-3sum.py) | Medium | Array, Two Pointers, Sorting | Python | 2026-08-16 |
-| 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-02 |
+| 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-01 |
 | 20 | [Valid Parentheses](0020-valid-parentheses/0020-valid-parentheses.py) | Easy | String, Stack, Bracket Sequences | Python | 2026-08-18 |
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
-| 23 | [Merge k Sorted Lists](0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Python | 2026-11-09 |
-| 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-31 |
+| 23 | [Merge k Sorted Lists](0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort | Python | 2026-11-08 |
+| 33 | [Search in Rotated Sorted Array](0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-30 |
 | 39 | [Combination Sum](0039-combination-sum/0039-combination-sum.py) | Medium | Array, Backtracking | Python | 2026-11-12 |
-| 46 | [Permutations](0046-permutations/0046-permutations.py) | Medium | Array, Backtracking | Python | 2026-11-12 |
+| 46 | [Permutations](0046-permutations/0046-permutations.py) | Medium | Array, Backtracking | Python | 2026-11-11 |
 | 48 | [Rotate Image](0048-rotate-image/0048-rotate-image.py) | Medium | Array, Math, Matrix | Python | 2026-08-30 |
 | 49 | [Group Anagrams](0049-group-anagrams/0049-group-anagrams.py) | Medium | Array, Hash Table, String, Sorting | Python | 2026-08-27 |
 | 54 | [Spiral Matrix](0054-spiral-matrix/0054-spiral-matrix.py) | Medium | Array, Matrix, Simulation | Python | 2026-09-15 |
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |
-| 78 | [Subsets](0078-subsets/0078-subsets.py) | Medium | Array, Backtracking, Bit Manipulation | Python | 2026-11-12 |
-| 79 | [Word Search](0079-word-search/0079-word-search.py) | Medium | Array, String, Backtracking, Depth-First Search, Matrix | Python | 2026-11-14 |
+| 78 | [Subsets](0078-subsets/0078-subsets.py) | Medium | Array, Backtracking, Bit Manipulation | Python | 2026-11-11 |
+| 79 | [Word Search](0079-word-search/0079-word-search.py) | Medium | Array, String, Backtracking, Depth-First Search, Matrix | Python | 2026-11-13 |
 | 84 | [Largest Rectangle in Histogram](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | Hard | Array, Stack, Monotonic Stack, Range Minimum/Maximum Query | Python | 2026-08-20 |
-| 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
-| 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py) | Medium | Array, Hash Table, Divide and Conquer, Tree, Binary Tree | Python | 2026-11-09 |
+| 98 | [Validate Binary Search Tree](0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |
+| 102 | [Binary Tree Level Order Traversal](0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | Medium | Tree, Breadth-First Search, Binary Tree | Python | 2026-11-06 |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py) | Medium | Array, Hash Table, Divide and Conquer, Tree, Binary Tree | Python | 2026-11-08 |
 | 121 | [Best Time to Buy and Sell Stock](0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | Easy | Array, Dynamic Programming | Python | 2026-08-17 |
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
 | 138 | [Copy List with Random Pointer](0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | Medium | Hash Table, Linked List | Python | 2026-11-02 |
-| 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | 2026-11-01 |
-| 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | 2026-11-01 |
-| 146 | [LRU Cache](0146-lru-cache/0146-lru-cache.py) | Medium | Hash Table, Linked List, Design, Doubly-Linked List | Python | 2026-11-06 |
+| 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | 2026-10-31 |
+| 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | 2026-10-31 |
+| 146 | [LRU Cache](0146-lru-cache/0146-lru-cache.py) | Medium | Hash Table, Linked List, Design, Doubly-Linked List | Python | 2026-11-05 |
 | 153 | [Find Minimum in Rotated Sorted Array](0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | Medium | Array, Binary Search | Python | 2026-10-29 |
 | 155 | [Min Stack](0155-min-stack/0155-min-stack.py) | Medium | Stack, Design | Python | 2026-08-18 |
 | 167 | [Two Sum II - Input Array Is Sorted](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | Medium | Array, Two Pointers, Binary Search | Python | 2026-08-16 |
-| 199 | [Binary Tree Right Side View](0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |
+| 199 | [Binary Tree Right Side View](0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
-| 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-10 |
-| 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-10 |
+| 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-09 |
+| 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-09 |
 | 215 | [Kth Largest Element in an Array](0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |
-| 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-04 |
-| 230 | [Kth Smallest Element in a BST](0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-09 |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-07 |
+| 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-03 |
+| 230 | [Kth Smallest Element in a BST](0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-08 |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree | Python | 2026-11-06 |
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python | 2026-08-13 |
-| 287 | [Find the Duplicate Number](0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | Medium | Array, Two Pointers, Binary Search, Bit Manipulation | Python | 2026-11-05 |
+| 287 | [Find the Duplicate Number](0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | Medium | Array, Two Pointers, Binary Search, Bit Manipulation | Python | 2026-11-04 |
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python | 2026-08-13 |
 | 424 | [Longest Repeating Character Replacement](0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-25 |
 | 496 | [Next Greater Element I](0496-next-greater-element-i/0496-next-greater-element-i.py) | Easy | Array, Hash Table, Stack, Monotonic Stack | Python | 2026-09-01 |
-| 543 | [Diameter of Binary Tree](0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.py) | Easy | Tree, Depth-First Search, Binary Tree | Python | 2026-11-06 |
+| 543 | [Diameter of Binary Tree](0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.py) | Easy | Tree, Depth-First Search, Binary Tree | Python | 2026-11-05 |
 | 560 | [Subarray Sum Equals K](0560-subarray-sum-equals-k/0560-subarray-sum-equals-k.py) | Medium | Array, Hash Table, Prefix Sum | Python | 2026-08-27 |
 | 566 | [Reshape the Matrix](0566-reshape-the-matrix/0566-reshape-the-matrix.py) | Easy | Array, Matrix, Simulation | Python | 2026-08-30 |
-| 572 | [Subtree of Another Tree](0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | Easy | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | Python | 2026-11-07 |
+| 572 | [Subtree of Another Tree](0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | Easy | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | Python | 2026-11-06 |
 | 621 | [Task Scheduler](0621-task-scheduler/0621-task-scheduler.py) | Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Python | 2026-11-10 |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python | 2026-08-27 |
 | 704 | [Binary Search](0704-binary-search/0704-binary-search.py) | Easy | Array, Binary Search | Python | 2026-10-29 |
@@ -70,7 +70,7 @@ directories, and every solution runs its example cases in CI.
 | 973 | [K Closest Points to Origin](0973-k-closest-points-to-origin/0973-k-closest-points-to-origin.py) | Medium | Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |
 | 981 | [Time Based Key-Value Store](0981-time-based-key-value-store/0981-time-based-key-value-store.py) | Medium | Hash Table, String, Binary Search, Design | Python | 2026-11-02 |
 | 994 | [Rotting Oranges](0994-rotting-oranges/0994-rotting-oranges.py) | Medium | Array, Breadth-First Search, Matrix | Python | 2026-09-03 |
-| 1448 | [Count Good Nodes in Binary Tree](1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-08 |
+| 1448 | [Count Good Nodes in Binary Tree](1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
 | 2043 | [Simple Bank System](2043-simple-bank-system/2043-simple-bank-system.py) | Medium | Array, Hash Table, Design, Simulation | Python | 2026-09-20 |
 | 3043 | [Find the Length of the Longest Common Prefix](3043-find-the-length-of-the-longest-common-prefix/3043-find-the-length-of-the-longest-common-prefix.py) | Medium | Array, Hash Table, String, Trie | Python | 2026-09-20 |
 <!-- INDEX:END -->

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-14T04:31:09Z",
+  "generated": "2026-11-15T02:48:10Z",
   "counts": {
     "easy": 14,
-    "medium": 47,
+    "medium": 48,
     "hard": 3,
-    "total": 64
+    "total": 65
   },
   "problems": [
     {
@@ -362,6 +362,23 @@
       "path": "0084-largest-rectangle-in-histogram",
       "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
       "solved": "2026-08-20"
+    },
+    {
+      "id": 90,
+      "slug": "subsets-ii",
+      "title": "Subsets II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking",
+        "Bit Manipulation"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0090-subsets-ii",
+      "url": "https://leetcode.com/problems/subsets-ii/",
+      "solved": "2026-11-14"
     },
     {
       "id": 98,

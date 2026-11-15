@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-15T02:48:10Z",
+  "generated": "2026-11-15T22:38:13Z",
   "counts": {
     "easy": 14,
-    "medium": 48,
+    "medium": 49,
     "hard": 3,
-    "total": 65
+    "total": 66
   },
   "problems": [
     {
@@ -206,6 +206,22 @@
       "path": "0039-combination-sum",
       "url": "https://leetcode.com/problems/combination-sum/",
       "solved": "2026-11-12"
+    },
+    {
+      "id": 40,
+      "slug": "combination-sum-ii",
+      "title": "Combination Sum II",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Backtracking"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0040-combination-sum-ii",
+      "url": "https://leetcode.com/problems/combination-sum-ii/",
+      "solved": "2026-11-15"
     },
     {
       "id": 46,

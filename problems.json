@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-15T22:38:13Z",
+  "generated": "2026-11-17T00:28:15Z",
   "counts": {
     "easy": 14,
-    "medium": 49,
+    "medium": 50,
     "hard": 3,
-    "total": 66
+    "total": 67
   },
   "problems": [
     {
@@ -107,6 +107,23 @@
       "path": "0015-3sum",
       "url": "https://leetcode.com/problems/3sum/",
       "solved": "2026-08-16"
+    },
+    {
+      "id": 17,
+      "slug": "letter-combinations-of-a-phone-number",
+      "title": "Letter Combinations of a Phone Number",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Backtracking"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0017-letter-combinations-of-a-phone-number",
+      "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      "solved": "2026-11-16"
     },
     {
       "id": 19,

@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 66 total | 14 easy | 49 medium | 3 hard
+**Solved:** 67 total | 14 easy | 50 medium | 3 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@ directories, and every solution runs its example cases in CI.
 | 4 | [Median of Two Sorted Arrays](0004-median-of-two-sorted-arrays/0004-median-of-two-sorted-arrays.py) | Hard | Array, Binary Search, Divide and Conquer | Python | 2026-11-11 |
 | 11 | [Container With Most Water](0011-container-with-most-water/0011-container-with-most-water.py) | Medium | Array, Two Pointers, Greedy | Python | 2026-09-15 |
 | 15 | [3Sum](0015-3sum/0015-3sum.py) | Medium | Array, Two Pointers, Sorting | Python | 2026-08-16 |
+| 17 | [Letter Combinations of a Phone Number](0017-letter-combinations-of-a-phone-number/0017-letter-combinations-of-a-phone-number.py) | Medium | Hash Table, String, Backtracking | Python | 2026-11-16 |
 | 19 | [Remove Nth Node From End of List](0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) | Medium | Linked List, Two Pointers | Python | 2026-11-01 |
 | 20 | [Valid Parentheses](0020-valid-parentheses/0020-valid-parentheses.py) | Easy | String, Stack, Bracket Sequences | Python | 2026-08-18 |
 | 21 | [Merge Two Sorted Lists](0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |

@@ -1,0 +1,6 @@
+title: "Palindrome Partitioning"
+difficulty: Medium
+topics:
+  - "String"
+  - "Dynamic Programming"
+  - "Backtracking"

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-17T00:28:15Z",
+  "generated": "2026-11-18T00:03:16Z",
   "counts": {
     "easy": 14,
-    "medium": 50,
+    "medium": 51,
     "hard": 3,
-    "total": 67
+    "total": 68
   },
   "problems": [
     {
@@ -515,6 +515,23 @@
       "path": "0128-longest-consecutive-sequence",
       "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
       "solved": "2026-08-14"
+    },
+    {
+      "id": 131,
+      "slug": "palindrome-partitioning",
+      "title": "Palindrome Partitioning",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Dynamic Programming",
+        "Backtracking"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0131-palindrome-partitioning",
+      "url": "https://leetcode.com/problems/palindrome-partitioning/",
+      "solved": "2026-11-17"
     },
     {
       "id": 138,

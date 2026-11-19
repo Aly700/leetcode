@@ -1,0 +1,8 @@
+title: "Max Area of Island"
+difficulty: Medium
+topics:
+  - "Array"
+  - "Depth-First Search"
+  - "Breadth-First Search"
+  - "Union-Find"
+  - "Matrix"

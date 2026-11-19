@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 69 total | 14 easy | 51 medium | 4 hard
+**Solved:** 70 total | 14 easy | 52 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -68,6 +68,7 @@ directories, and every solution runs its example cases in CI.
 | 572 | [Subtree of Another Tree](0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | Easy | Tree, Depth-First Search, String Matching, Binary Tree, Hash Function | Python | 2026-11-06 |
 | 621 | [Task Scheduler](0621-task-scheduler/0621-task-scheduler.py) | Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue), Counting | Python | 2026-11-10 |
 | 643 | [Maximum Average Subarray I](0643-maximum-average-subarray-i/0643-maximum-average-subarray-i.py) | Easy | Array, Sliding Window | Python | 2026-08-27 |
+| 695 | [Max Area of Island](0695-max-area-of-island/0695-max-area-of-island.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-11-19 |
 | 704 | [Binary Search](0704-binary-search/0704-binary-search.py) | Easy | Array, Binary Search | Python | 2026-10-29 |
 | 739 | [Daily Temperatures](0739-daily-temperatures/0739-daily-temperatures.py) | Medium | Array, Stack, Monotonic Stack | Python | 2026-08-19 |
 | 853 | [Car Fleet](0853-car-fleet/0853-car-fleet.py) | Medium | Array, Stack, Sorting, Monotonic Stack | Python | 2026-08-19 |

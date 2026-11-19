@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-19T02:48:15Z",
+  "generated": "2026-11-19T23:24:13Z",
   "counts": {
     "easy": 14,
-    "medium": 51,
+    "medium": 52,
     "hard": 4,
-    "total": 69
+    "total": 70
   },
   "problems": [
     {
@@ -1026,6 +1026,25 @@
       "path": "0643-maximum-average-subarray-i",
       "url": "https://leetcode.com/problems/maximum-average-subarray-i/",
       "solved": "2026-08-27"
+    },
+    {
+      "id": 695,
+      "slug": "max-area-of-island",
+      "title": "Max Area of Island",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0695-max-area-of-island",
+      "url": "https://leetcode.com/problems/max-area-of-island/",
+      "solved": "2026-11-19"
     },
     {
       "id": 704,

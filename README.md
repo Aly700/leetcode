@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 68 total | 14 easy | 51 medium | 3 hard
+**Solved:** 69 total | 14 easy | 51 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@ directories, and every solution runs its example cases in CI.
 | 46 | [Permutations](0046-permutations/0046-permutations.py) | Medium | Array, Backtracking | Python | 2026-11-11 |
 | 48 | [Rotate Image](0048-rotate-image/0048-rotate-image.py) | Medium | Array, Math, Matrix | Python | 2026-08-30 |
 | 49 | [Group Anagrams](0049-group-anagrams/0049-group-anagrams.py) | Medium | Array, Hash Table, String, Sorting | Python | 2026-08-27 |
+| 51 | [N-Queens](0051-n-queens/0051-n-queens.py) | Hard | Array, Backtracking, Algorithm X | Python | 2026-11-18 |
 | 54 | [Spiral Matrix](0054-spiral-matrix/0054-spiral-matrix.py) | Medium | Array, Matrix, Simulation | Python | 2026-09-15 |
 | 73 | [Set Matrix Zeroes](0073-set-matrix-zeroes/0073-set-matrix-zeroes.py) | Medium | Array, Hash Table, Matrix | Python | 2026-09-01 |
 | 74 | [Search a 2D Matrix](0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | Medium | Array, Binary Search, Matrix | Python | 2026-08-25 |

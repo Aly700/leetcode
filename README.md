@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 70 total | 14 easy | 52 medium | 4 hard
+**Solved:** 71 total | 14 easy | 53 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -41,6 +41,7 @@ directories, and every solution runs its example cases in CI.
 | 125 | [Valid Palindrome](0125-valid-palindrome/0125-valid-palindrome.py) | Easy | Two Pointers, String | Python | 2026-08-26 |
 | 128 | [Longest Consecutive Sequence](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | Medium | Array, Hash Table, Union-Find | Python | 2026-08-14 |
 | 131 | [Palindrome Partitioning](0131-palindrome-partitioning/0131-palindrome-partitioning.py) | Medium | String, Dynamic Programming, Backtracking | Python | 2026-11-17 |
+| 133 | [Clone Graph](0133-clone-graph/0133-clone-graph.py) | Medium | Hash Table, Depth-First Search, Breadth-First Search, Graph Theory | Python | 2026-11-22 |
 | 138 | [Copy List with Random Pointer](0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | Medium | Hash Table, Linked List | Python | 2026-11-02 |
 | 141 | [Linked List Cycle](0141-linked-list-cycle/0141-linked-list-cycle.py) | Easy | Hash Table, Linked List, Two Pointers | Python | 2026-10-31 |
 | 143 | [Reorder List](0143-reorder-list/0143-reorder-list.py) | Medium | Linked List, Two Pointers, Stack, Recursion | Python | 2026-10-31 |

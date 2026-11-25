@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 72 total | 14 easy | 54 medium | 4 hard
+**Solved:** 73 total | 14 easy | 55 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -62,6 +62,7 @@ directories, and every solution runs its example cases in CI.
 | 238 | [Product of Array Except Self](0238-product-of-array-except-self/0238-product-of-array-except-self.py) | Medium | Array, Prefix Sum | Python | 2026-08-13 |
 | 287 | [Find the Duplicate Number](0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | Medium | Array, Two Pointers, Binary Search, Bit Manipulation | Python | 2026-11-04 |
 | 347 | [Top K Frequent Elements](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | Python | 2026-08-13 |
+| 417 | [Pacific Atlantic Water Flow](0417-pacific-atlantic-water-flow/0417-pacific-atlantic-water-flow.py) | Medium | Array, Depth-First Search, Breadth-First Search, Matrix | Python | 2026-11-24 |
 | 424 | [Longest Repeating Character Replacement](0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.py) | Medium | Hash Table, String, Sliding Window | Python | 2026-08-25 |
 | 496 | [Next Greater Element I](0496-next-greater-element-i/0496-next-greater-element-i.py) | Easy | Array, Hash Table, Stack, Monotonic Stack | Python | 2026-09-01 |
 | 543 | [Diameter of Binary Tree](0543-diameter-of-binary-tree/0543-diameter-of-binary-tree.py) | Easy | Tree, Depth-First Search, Binary Tree | Python | 2026-11-05 |

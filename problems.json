@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-24T02:34:10Z",
+  "generated": "2026-11-25T02:09:19Z",
   "counts": {
     "easy": 14,
-    "medium": 54,
+    "medium": 55,
     "hard": 4,
-    "total": 72
+    "total": 73
   },
   "problems": [
     {
@@ -922,6 +922,24 @@
       "path": "0347-top-k-frequent-elements",
       "url": "https://leetcode.com/problems/top-k-frequent-elements/",
       "solved": "2026-08-13"
+    },
+    {
+      "id": 417,
+      "slug": "pacific-atlantic-water-flow",
+      "title": "Pacific Atlantic Water Flow",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Matrix"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0417-pacific-atlantic-water-flow",
+      "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+      "solved": "2026-11-24"
     },
     {
       "id": 424,

@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 73 total | 14 easy | 55 medium | 4 hard
+**Solved:** 74 total | 14 easy | 56 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@ directories, and every solution runs its example cases in CI.
 | 199 | [Binary Tree Right Side View](0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-07 |
 | 200 | [Number of Islands](0200-number-of-islands/0200-number-of-islands.py) | Medium | Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix | Python | 2026-08-31 |
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
+| 207 | [Course Schedule](0207-course-schedule/0207-course-schedule.py) | Medium | Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort, Directed Acyclic Graph | Python | 2026-11-25 |
 | 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-09 |
 | 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-09 |
 | 215 | [Kth Largest Element in an Array](0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |

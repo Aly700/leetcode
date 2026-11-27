@@ -1,0 +1,8 @@
+def run(solution):
+    solver = solution.Solution()
+    assert solver.findRedundantConnection([[1, 2], [1, 3], [2, 3]]) == [2, 3]
+    assert solver.findRedundantConnection([[1, 2], [2, 3], [3, 4], [1, 4], [1, 5]]) == [1, 4]
+    assert solver.findRedundantConnection([[1, 4], [2, 3], [3, 4], [1, 2]]) == [1, 2]
+    assert solver.findRedundantConnection([[1, 2], [2, 3], [1, 3], [3, 4]]) == [1, 3]
+    assert solver.findRedundantConnection([[2, 3], [1, 3], [1, 2]]) == [1, 2]
+    assert solver.findRedundantConnection([[1, 2], [2, 3], [3, 4], [4, 5], [2, 5]]) == [2, 5]

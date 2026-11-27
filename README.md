@@ -5,7 +5,7 @@ problem directories. The index and `problems.json` are generated from those
 directories, and every solution runs its example cases in CI.
 
 <!-- INDEX:BEGIN -->
-**Solved:** 74 total | 14 easy | 56 medium | 4 hard
+**Solved:** 75 total | 14 easy | 57 medium | 4 hard
 
 | # | Title | Difficulty | Topics | Language | Solved |
 | ---: | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@ directories, and every solution runs its example cases in CI.
 | 206 | [Reverse Linked List](0206-reverse-linked-list/0206-reverse-linked-list.py) | Easy | Linked List, Recursion | Python | 2026-10-29 |
 | 207 | [Course Schedule](0207-course-schedule/0207-course-schedule.py) | Medium | Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort, Directed Acyclic Graph | Python | 2026-11-25 |
 | 208 | [Implement Trie (Prefix Tree)](0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | Medium | Hash Table, String, Design, Trie | Python | 2026-11-09 |
+| 210 | [Course Schedule II](0210-course-schedule-ii/0210-course-schedule-ii.py) | Medium | Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort | Python | 2026-11-26 |
 | 211 | [Design Add and Search Words Data Structure](0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | Medium | String, Depth-First Search, Design, Trie | Python | 2026-11-09 |
 | 215 | [Kth Largest Element in an Array](0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect | Python | 2026-11-10 |
 | 226 | [Invert Binary Tree](0226-invert-binary-tree/0226-invert-binary-tree.py) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree | Python | 2026-11-03 |

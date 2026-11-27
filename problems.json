@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-26T03:21:21Z",
+  "generated": "2026-11-27T00:05:17Z",
   "counts": {
     "easy": 14,
-    "medium": 56,
+    "medium": 57,
     "hard": 4,
-    "total": 74
+    "total": 75
   },
   "problems": [
     {
@@ -794,6 +794,24 @@
       "path": "0208-implement-trie-prefix-tree",
       "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
       "solved": "2026-11-09"
+    },
+    {
+      "id": 210,
+      "slug": "course-schedule-ii",
+      "title": "Course Schedule II",
+      "difficulty": "Medium",
+      "topics": [
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph Theory",
+        "Topological Sort"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "path": "0210-course-schedule-ii",
+      "url": "https://leetcode.com/problems/course-schedule-ii/",
+      "solved": "2026-11-26"
     },
     {
       "id": 211,
